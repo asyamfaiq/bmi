@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Hitung BMI</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <table>
+        <thead>
+          <tr>
+            <th>Hitung BMI</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Berat Badan (kg)</td>
+          </tr>
+          <tr>
+            <td><input type="text" id="nilai_bb" /></td>
+          </tr>
+          <tr>
+            <td>Tinggi Badan (cm)</td>
+          </tr>
+          <tr>
+            <td><input type="text" id="nilai_tb" /></td>
+          </tr>
+          <tr>
+            <td><button onclick="hitung()">Hitung</button></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td id="bmi">Hasil perhitungan BMI :</td>
+          </tr>
+          <tr>
+            <td>Keterangan :</td>
+          </tr>
+          <tr>
+            <td id="keterangan"></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <script type="text/javascript" src="programBMI.js"></script>
+  </body>
+</html>
